@@ -1,0 +1,527 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    
+
+    <link rel="icon" type="image/png" href="/static/images/favicon.png">
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha256-93wNFzm2GO3EoByj9rKZCwGjAJAwr0nujPaOgwUt8ZQ="
+          crossorigin="anonymous"/>
+
+    <!-- External Fonts (no google for china) -->
+    <link rel="stylesheet" href="/static/css/main.css"/>
+    <!-- <link rel="stylesheet" href="/static/css/fa_regular.css"/> -->
+    <link rel="stylesheet" href="/static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="/static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="/static/css/typeahead.css"/>
+
+    <title>CHIL
+      
+    </title>
+  
+</head>
+
+<body>
+<!-- NAV -->
+
+  
+
+  
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto btco-hover-menu" id="main-nav">
+    <div class="container">
+        
+        
+          <a class="navbar-brand" href="/index.html">CHIL 2022</a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+              class="collapse navbar-collapse flex-grow-1"
+              id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item active">
+                  <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              
+              
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="organizationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Organization
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="organizationDropdown">
+                  <li>
+                    
+                      <a class="dropdown-item" href="/committee.html">Committee</a>
+                    
+                  </li>
+                </ul>
+              </li>
+              
+              
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Past Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                  <li>
+                      <a class="dropdown-item dropdown-toggle" href="#" id="navYear2021Dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2021</a>
+                      <ul class="dropdown-menu" aria-labelledby="navYear2021Dropdown">
+                          
+                            
+                          
+                            
+                              
+                              <li><a class="dropdown-item" href="/2021/highlights.html">Highlights</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2021/proceedings.html">Proceedings</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2021/speakers.html">Speakers</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2021/tutorials.html">Tutorials</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2021/workshops.html">Workshops</a></li>
+                              
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                      </ul>
+                  </li>
+                  
+                  <li>
+                      <a class="dropdown-item dropdown-toggle" href="#" id="navYear2020Dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2020</a>
+                      <ul class="dropdown-menu" aria-labelledby="navYear2020Dropdown">
+                          
+                            
+                              
+                              <li><a class="dropdown-item" href="/2020/highlights.html">Highlights</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2020/proceedings.html">Proceedings</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2020/speakers.html">Speakers</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2020/symposiums.html">Symposiums</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2020/tutorials.html">Tutorials</a></li>
+                              
+                              <li><a class="dropdown-item" href="/2020/workshops.html">Workshops</a></li>
+                              
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                      </ul>
+                  </li>
+                  
+                </ul>
+              </li>
+              
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+
+
+  <!-- User Overrides -->
+  
+  <style>
+    .back {
+      background:
+        linear-gradient(
+          rgba(30, 100, 160, 0.90),
+          rgba(0, 0, 0, 0.01)
+        ),
+        url("static/images/main.jpg") no-repeat center;
+      background-size: cover;
+    }
+    .back h2 {
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 3rem;
+    }
+  </style>
+
+  <div class="jumbotron jumbotron-fluid back">
+    <div class="row header p-6 m-5">
+      <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+        <h2>
+          Conference on <br> Health, Inference, and Learning
+        </h2>
+        <h2 class="p-5">
+          April 2022
+        </h2>
+        <div class="countdown-flipper">
+          <div class="wrapper hidden" id="countdown-flipper" data-is-active="false"></div>
+          <a class="btn-primary btn-lg" href="/2021/highlights.html">WATCH 2021 REPLAY!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container content-wrapper">
+      <!-- Tabs -->
+      <div class="tabs">
+           
+      </div>
+      <!-- Content -->
+      <div class="content">
+          
+  <div class="page-content">
+    <h2>CHIL 2022</h2>
+<p>The Conference on Health, Inference, and Learning (CHIL), targets a cross-disciplinary representation of clinicians and researchers (from industry and academia) in machine learning, health policy, causality, fairness, and other related areas.</p>
+<p>The conference is designed to spark insight-driven discussions on new and emerging ideas that may lead to collaboration and discussion.</p>
+<p><br /></p>
+<div class="hidden">
+### Conference Timeline
+
+<table class="timeline-table table table-striped table-sm">
+  <tbody>
+    <tr>
+      <th scope="row">Call for Papers</th>
+      <td>November 25, 2020</td>
+      <td class="text-right"><span class="countdown" data-startdate="November 25, 2020"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Submission System Opens</th>
+      <td>December 11, 2020</td>
+      <td class="text-right"><span class="countdown" data-startdate="December 11, 2020"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Abstract Submissions due</th>
+      <td>January 10, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="January 10, 2021"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Paper Submissions due</th>
+      <td>January 15, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="2021-01-15T06:59:00.00"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Reviews due</th>
+      <td>February 1, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="February 1, 2021"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Author Response begins</th>
+      <td>February 4, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="February 4, 2021"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Author Response ends</th>
+      <td>February 8, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="2021-02-08T11:59:00.00"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Registration opens</th>
+      <td>February 15, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="2021-02-15T23:59:00.00"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Notification of Acceptance</th>
+      <td>February 15, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="2021-02-15T23:59:00.00"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Call for volunteers opens</th>
+      <td>March 1, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="2021-03-01T23:59:00.00"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Camera Ready due</th>
+      <td>March 5, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="2021-03-05T23:59:00.00"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Conference dates</th>
+      <td>April 8-9, 2021</td>
+      <td class="text-right"><span class="countdown" data-startdate="2021-04-08T23:59:00.00"></span></td>
+    </tr>
+  </tbody>
+</table>
+<div class="text-right">*All times shown above are in AoE</div>
+<br />
+</div>
+
+<h3>Contact Information</h3>
+<ul>
+<li>For questions/comments, email us at <a href="mailto:info@chilconference.org">info@chilconference.org</a></li>
+<li>For announcements, follow us on Twitter <a href="https://twitter.com/chilconference">@CHILconference</a></li>
+</ul>
+
+    <!-- Organizers -->
+    
+  </div>
+
+      </div>
+  </div>
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-left">© 2021 CHIL Organization Committee</p>
+    </div>
+  </footer>
+
+
+
+  
+  <!-- External Javascript libs_ext  -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+          integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+          crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+          crossorigin="anonymous"></script>
+
+  <script
+          src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+          integrity="sha256-2JaAhvdQnfNMMnhWPauHOZ2k+dzftBmBjjownu3HC4g="
+          crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+          integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+          crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+          integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+          crossorigin="anonymous"></script>
+
+  <!-- Library libs_ext -->
+  <script type="text/javascript" src="/static/js/libs_ext/typeahead.bundle.js"></script>
+
+  <!--    Internal Libs -->
+  <script type="text/javascript" src="/static/js/data/api.js"></script>
+
+  <!-- Google Analytics -->
+  <script
+          async
+          type="text/javascript"
+          src="https://www.googletagmanager.com/gtag/js?id=UA-"></script>
+
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "UA-");
+  </script>
+
+  <!-- Code for hash tags -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (window.location.hash !== "") {
+        $(`a[href="${window.location.hash}"]`).tab("show");
+      }
+
+      $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+        const hash = $(e.target).attr("href");
+        if (hash.substr(0, 1) === "#") {
+          const position = $(window).scrollTop();
+          window.location.replace(`#${hash.substr(1)}`);
+          $(window).scrollTop(position);
+        }
+      });
+
+      // Nested dropdown navigation menu
+      var ddHoverOrClick = function (e) {
+        var $el = $(this);
+        var $parent = $(this).offsetParent('.dropdown-menu');
+
+        if (!$(this).next().hasClass('show')) {
+            $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+        }
+
+        var $subMenu = $(this).next('.dropdown-menu');
+        $subMenu.toggleClass('show');
+
+        $(this).parent('li').toggleClass('show');
+
+        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+            $('.dropdown-menu .show').removeClass('show');
+        });
+
+         if (!$parent.parent().hasClass('navbar-nav')) {
+            $el.next().css({
+              "top": $el[0].offsetTop,
+              "left": -$parent.outerWidth()
+            });
+        }
+
+        return false;
+      };
+
+      $('.dropdown-menu a.dropdown-toggle').click(ddHoverOrClick).hover(ddHoverOrClick).on('touchstart', ddHoverOrClick);
+    });
+  </script>
+  <!-- <script src="/static/js/modules/lazyLoad.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery-countdown@2.2.0/dist/jquery.countdown.min.js"
+          integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8="
+          crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+
+  <script type="text/template" id="countdown-flipper-template">
+    <div class="time <%= label %>">
+      <span class="count curr top"><%= curr %></span>
+      <span class="count next top"><%= next %></span>
+      <span class="count next bottom"><%= next %></span>
+      <span class="count curr bottom"><%= curr %></span>
+      <span class="label"><%= label.length < 6 ? label : label.substr(0, 3)  %></span>
+    </div>
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      // Main conference countdown flipper
+      var labels = ['weeks', 'days', 'hours', 'minutes'],
+        conferenceStartDate = new Date("2021-04-08T23:59:00.00").getTime();
+        template = _.template($('#countdown-flipper-template').html()),
+        currDate = '00:00:00:00:00',
+        nextDate = '00:00:00:00:00',
+        parser = /([0-9]{2})/gi,
+        $countdownFlipper = $('#countdown-flipper');
+        isCountdownActive = $countdownFlipper.data("isActive");
+
+      // Parse countdown string to an object
+      function strfobj(str) {
+        var parsed = str.match(parser),
+          obj = {};
+        labels.forEach(function(label, i) {
+          obj[label] = parsed[i]
+        });
+        return obj;
+      }
+
+      // Return the time components that diffs
+      function diff(obj1, obj2) {
+        var diff = [];
+        labels.forEach(function(key) {
+          if (obj1[key] !== obj2[key]) {
+            diff.push(key);
+          }
+        });
+        return diff;
+      }
+
+      // Build the layout
+      var initData = strfobj(currDate);
+      labels.forEach(function(label, i) {
+        $countdownFlipper.append(template({
+          curr: initData[label],
+          next: initData[label],
+          label: label
+        }));
+      });
+
+      // Starts the countdown
+      if (isCountdownActive) {
+        $countdownFlipper.removeClass('hidden');
+        $countdownFlipper.countdown(conferenceStartDate, function(event) {
+          var newDate = event.strftime('%w:%d:%H:%M:%S'),
+            data;
+          if (newDate !== nextDate) {
+            currDate = nextDate;
+            nextDate = newDate;
+            // Setup the data
+            data = {
+              'curr': strfobj(currDate),
+              'next': strfobj(nextDate)
+            };
+
+            // Apply the new values to each node that changed
+            diff(data.curr, data.next).forEach(function(label) {
+              var selector = '.%s'.replace(/%s/, label),
+                  $node = $countdownFlipper.find(selector);
+
+              // Update the node
+              $node.removeClass('flip');
+              $node.find('.curr').text(data.curr[label]);
+              $node.find('.next').text(data.next[label]);
+
+              // Wait for a repaint to then flip
+              _.delay(function($node) {
+                $node.addClass('flip');
+              }, 50, $node);
+            });
+          }
+        });
+      } else {
+        $countdownFlipper.addClass('hidden');
+      }
+
+      // Get all other countdown elements
+      $('.countdown').each(function( index ) {
+          var currentCountdownElement = $( this );
+          // Set the date we're counting down to
+          var countDownDate = new Date(currentCountdownElement.data('startdate')).getTime();
+          var currentDate = new Date().getTime();
+
+          if (countDownDate < currentDate) {
+            currentCountdownElement.closest('tr').addClass('strikeout');
+          }
+
+          $(currentCountdownElement)
+            .countdown(countDownDate, function(event) {
+              currentCountdownElement.html(event.strftime('%w weeks %d days %H:%M'));
+            });
+      });
+    });
+  </script>
+
+</body>
+</html>
